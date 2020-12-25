@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09e4509d-349e-43d5-9e2c-305faad8021c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
       <workItem from="1608726020066" duration="5609000" />
       <workItem from="1608761158118" duration="671000" />
       <workItem from="1608920644592" duration="1031000" />
-      <workItem from="1608921840997" duration="3139000" />
+      <workItem from="1608921840997" duration="4117000" />
     </task>
     <servers />
   </component>

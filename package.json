@@ -1,7 +1,6 @@
 {
   "name": "express-site",
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
     "client": "cd client && yarn start",
     "server": "nodemon server.js",
