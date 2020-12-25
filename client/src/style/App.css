@@ -41,6 +41,7 @@
 }
 .form--input {
   text-align: center;
+  color: grey;
   font-size: 20px;
   height: 40px;
   width: 500px;
@@ -60,7 +61,7 @@
   width: 1000px;
   font-size: 60pt;
   font-family: 'Luckiest Guy',serif;
-  color: #fff;
+  color: #C0FF33;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-shadow: 0 -6px 0 #212121,
@@ -85,5 +86,20 @@
   0 18px 18px rgba(0,0,0,.25),
   0 24px 24px rgba(0,0,0,.2),
   0 36px 36px rgba(0,0,0,.15);
+  cursor: default;
+}
+.copy--footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  font-weight: lighter;
+  background-color: black;
+  color: lightgreen;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  font-size: 26px;
   cursor: default;
 }

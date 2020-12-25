@@ -39,13 +39,17 @@ class App extends Component {
             <input
                 className='form--input'
                 type="text"
-                placeholder='Type here, Your message will be send'
+                placeholder='Type here, Your message will be send to API'
                 value={this.state.post}
                 onChange={e => this.setState({ post: e.target.value })}
             />
             <button className='api--button' type="submit">Submit</button>
           </form>
           <p className='post--message'>{this.state.responseToPost}</p>
+          <footer className='copy--footer'>
+            © 2020 - {(new Date().getFullYear())} Łukasz Barylak
+
+          </footer>
         </div>
     );
   }
