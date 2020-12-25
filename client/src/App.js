@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './style/App.css';
 
 
 class App extends Component {
@@ -24,35 +24,28 @@ class App extends Component {
       body: JSON.stringify({ post: this.state.post }),
     });
     const body = await response.text();    this.setState({ responseToPost: body });
-  };render() {
+  };
+  render() {
     return (
         <div className="App">
-          <header className="App-header">
-            <p>
-              Edit <code>src/App.js</code> and save to reload.
-            </p>
-            <a
-                className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-              Learn React
-            </a>
+          <header className="App--header">
+            <h1 className='header--title'>Express website for learning purpose</h1>
           </header>
-          <p>{this.state.response}</p>
+          <p className='hello'>{this.state.response}</p>
           <form onSubmit={this.handleSubmit}>
             <p>
               <strong>Post to Server:</strong>
             </p>
             <input
+                className='form--input'
                 type="text"
+                placeholder='Type here, Your message will be send'
                 value={this.state.post}
                 onChange={e => this.setState({ post: e.target.value })}
             />
-            <button type="submit">Submit</button>
+            <button className='api--button' type="submit">Submit</button>
           </form>
-          <p>{this.state.responseToPost}</p>
+          <p className='post--message'>{this.state.responseToPost}</p>
         </div>
     );
   }
